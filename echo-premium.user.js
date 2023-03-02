@@ -7,8 +7,8 @@
 // @match        https://snths.echo-ntn.org/*
 // @icon         https://api.agilixbuzz.com/dlap.ashx?cmd=getresource&entityid=//snths&path=public/shadow/app/buzz/echo-icon42x42.png
 // @grant        GM_addStyle
-// @updateURL
-// @downloadURL
+// @updateURL    https://github.com/DJ13423/echo-premium/raw/main/echo-premium.user.js
+// @downloadURL  https://github.com/DJ13423/echo-premium/raw/main/echo-premium.user.js
 // ==/UserScript==
 
 
