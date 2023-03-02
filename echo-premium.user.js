@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Echo Premium
 // @namespace    https://dj13423.repl.co
-// @version      0.5
+// @version      0.6
 // @description  Echo Premium
 // @author       DJ
 // @match        https://snths.echo-ntn.org/*
