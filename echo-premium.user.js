@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Echo Premium
 // @namespace    https://dj13423.repl.co
-// @version      0.6
+// @version      Alpha-v5
 // @description  Echo Premium
 // @author       DJ
 // @match        https://snths.echo-ntn.org/*
@@ -9,6 +9,7 @@
 // @grant        GM_addStyle
 // @updateURL    https://github.com/DJ13423/echo-premium/raw/main/echo-premium.user.js
 // @downloadURL  https://github.com/DJ13423/echo-premium/raw/main/echo-premium.user.js
+// @run-at       document-start
 // ==/UserScript==
 
 
