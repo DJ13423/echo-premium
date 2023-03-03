@@ -1,19 +1,22 @@
-# Tampermonkey Installation Instrcutions
+# Tampermonkey Installation Instrcutions (Required for Echo Premium)
 
-Install the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) chrome extention [Click here](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+1. [Click here](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) to go to the chrome store and click `Add to chrome`
+
+![image](https://user-images.githubusercontent.com/61391827/222789735-b863c221-cdbd-48e5-b629-090c20f03964.png)
+
+2. Click `Add Extention`
+
+![image](https://user-images.githubusercontent.com/61391827/222790193-23953a11-458c-4f01-868d-0c41596123ea.png)
+
 
 ***
 
 # Echo Premium Installation Instructions
 
-Click on `echo-premium.user.js`
+1. [Click here](https://github.com/DJ13423/echo-premium/raw/main/echo-premium.user.js) to download echo premium.
 
-![image](https://user-images.githubusercontent.com/61391827/222504675-a1c7c3c1-1702-4add-a7d6-2343e87c606e.png)
+2. Click the `Install` button
 
-Click the `Raw` button
-
-![image](https://user-images.githubusercontent.com/61391827/222496159-5e4691c1-0d7f-4580-86b8-8c002591fc78.png)
-
-Click the `Install` button
+![image](https://user-images.githubusercontent.com/61391827/222788870-870ae580-6246-443b-8845-890e5e1e67d8.png)
 
 Thats all!
