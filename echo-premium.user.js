@@ -168,7 +168,7 @@
 // ==UserScript==
 // @name         Echo Premium
 // @namespace    https://dj13423.repl.co
-// @version      Alpha-v7
+// @version      Alpha-v8
 // @description  Echo Premium
 // @author       DJ
 // @match        https://snths.echo-ntn.org/*
