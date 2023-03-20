@@ -7,18 +7,16 @@
 ███████╗╚█████╔╝██║░░██║╚█████╔╝  ██║░░░░░██║░░██║███████╗██║░╚═╝░██║██║╚██████╔╝██║░╚═╝░██║
 ╚══════╝░╚════╝░╚═╝░░╚═╝░╚════╝░  ╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚═╝░╚═════╝░╚═╝░░░░░╚═╝
 
-░█████╗░██╗░░░░░██████╗░██╗░░██╗░█████╗░░░░░░░██╗░░░██╗███████╗
-██╔══██╗██║░░░░░██╔══██╗██║░░██║██╔══██╗░░░░░░██║░░░██║╚════██║
-███████║██║░░░░░██████╔╝███████║███████║█████╗╚██╗░██╔╝░░░░██╔╝
-██╔══██║██║░░░░░██╔═══╝░██╔══██║██╔══██║╚════╝░╚████╔╝░░░░██╔╝░
-██║░░██║███████╗██║░░░░░██║░░██║██║░░██║░░░░░░░░╚██╔╝░░░░██╔╝░░
-╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░░░░░░░╚═╝░░░░░╚═╝░░░
+░█████╗░██╗░░░░░██████╗░██╗░░██╗░█████╗░░░░░░░██╗░░░██╗░█████╗░
+██╔══██╗██║░░░░░██╔══██╗██║░░██║██╔══██╗░░░░░░██║░░░██║██╔══██╗
+███████║██║░░░░░██████╔╝███████║███████║█████╗╚██╗░██╔╝╚█████╔╝
+██╔══██║██║░░░░░██╔═══╝░██╔══██║██╔══██║╚════╝░╚████╔╝░██╔══██╗
+██║░░██║███████╗██║░░░░░██║░░██║██║░░██║░░░░░░░░╚██╔╝░░╚█████╔╝
+╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░░░░░░░╚═╝░░░░╚════╝░
 
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 █████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗
 ╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
 ██╗████████╗  ██╗░██████╗
@@ -76,12 +74,9 @@
 ██║░░██║██║░░██║██║██║╚████║██║░░╚██╗░░░
 ██████╔╝╚█████╔╝██║██║░╚███║╚██████╔╝██╗
 ╚═════╝░░╚════╝░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝
-
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 █████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗
 ╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
 ██╗███████╗  ██╗░░░██╗░█████╗░██╗░░░██╗  ░█████╗░██╗░░██╗░█████╗░███╗░░██╗░██████╗░███████╗
@@ -189,7 +184,7 @@
     'use strict';
 
 
-    const scriptVersion = 'Alpha-v7'
+    const scriptVersion = 'Alpha-v8'
 
 
     function $(selector) { return document.querySelectorAll(selector) }
@@ -237,7 +232,7 @@
     <div>
         <h1>Settings</h1>
         <label>Enable Echo Premium</label>
-        <input type="checkbox" id="echoPremiumEnabledCheckbox" ${echoPremiumEnabled == 'true' ? 'checked' : ''}>
+        <input type="checkbox" id="echoPremiumEnabledCheckbox" ${echoPremiumEnabled == 'false' ? '' : 'checked'}>
         <br>
         <br>
         <label>Background image URL:</label>
@@ -247,9 +242,9 @@
         <p>Background image presets:</p>
         <br>
         <br>
-        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-03-13%2022.13.37%20-%20A%20beautiful%20city%20with%20amazing%20lighting.png" style="border-style: solid; border-color: black; border-radius: 10px; height: 150px; cursor: pointer;" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-03-13%2022.13.37%20-%20A%20beautiful%20city%20with%20amazing%20lighting.png'">
-        <img src="https://github.com/DJ13423/echo-premium/raw/main/background-images/DALL%C2%B7E%202023-03-15%2009.40.01%20-%20a%20space%20background%20showing%20an%20earth%20like%20planet%20.png" style="border-style: solid; border-color: black; border-radius: 10px; height: 150px; cursor: pointer;" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://github.com/DJ13423/echo-premium/raw/main/background-images/DALL%C2%B7E%202023-03-15%2009.40.01%20-%20a%20space%20background%20showing%20an%20earth%20like%20planet%20.png'">
-        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-03-15%2011.01.46%20-%20a%20minecraft%20sunset%20but%20with%20shaders.png" style="border-style: solid; border-color: black; border-radius: 10px; height: 150px; cursor: pointer;" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-03-15%2011.01.46%20-%20a%20minecraft%20sunset%20but%20with%20shaders.png'">
+        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-03-13%2022.13.37%20-%20A%20beautiful%20city%20with%20amazing%20lighting.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-03-13%2022.13.37%20-%20A%20beautiful%20city%20with%20amazing%20lighting.png'">
+        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-03-15%2009.40.01%20-%20a%20space%20background%20showing%20an%20earth%20like%20planet.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://github.com/DJ13423/echo-premium/raw/main/background-images/DALL%C2%B7E%202023-03-15%2009.40.01%20-%20a%20space%20background%20showing%20an%20earth%20like%20planet%20.png'">
+        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-03-15%2011.01.46%20-%20a%20minecraft%20sunset%20but%20with%20shaders.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-03-15%2011.01.46%20-%20a%20minecraft%20sunset%20but%20with%20shaders.png'">
         <br>
         <br>
         <button type="button" onclick="document.echoPremium.saveSettings(); window.location.href='/${isInTeacherApp ? 'teacher' : 'student'}/home/courses'" style="border-color: black; border-radius: 5px; font-size: 20px; background-color: #181;">Save & exit</button>
@@ -397,6 +392,11 @@
         border-radius: 30px !important;
     }
 
+    /* Drop down menu when you click on your profile */
+    .mat-menu-panel {
+        border-radius: 20px !important;
+    }
+
     /* Card with the date that shows over all the class cards on the home course page */
     body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-teacher-home-tabs > div.tab-content > app-teacher-home > div.home-ct > mat-card,
     /* T/S */
@@ -525,6 +525,21 @@
         90% { box-shadow: 0px 0px 50px 10px rgb(255, 0, 255) }
         100% { box-shadow: 0px 0px 50px 10px rgb(255, 0, 0) }
     }
+
+    .background-image-preset-thumbnail {
+        border-style: solid;
+        border-color: black;
+        border-radius: 10px;
+        height: 150px;
+        cursor: pointer;
+        transition: filter 0.3s;
+    }
+    .background-image-preset-thumbnail:hover {
+        filter: brightness(1.2);
+    }
+    .background-image-preset-thumbnail:active {
+        filter: brightness(1) blur(5px);
+    }
     `);
 
 
@@ -551,9 +566,6 @@
                     "accept": "application/json",
                     "accept-language": "en-US,en;q=0.9",
                     "content-type": "application/json",
-                    //"sec-ch-ua": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"Microsoft Edge\";v=\"110\"",
-                    //"sec-ch-ua-mobile": "?0",
-                    //"sec-ch-ua-platform": "\"Windows\"",
                     "sec-fetch-dest": "empty",
                     "sec-fetch-mode": "cors",
                     "sec-fetch-site": "cross-site"
@@ -566,7 +578,7 @@
             })).json()
 
             const darkModeToggle = document.createElement('div')
-            darkModeToggle.innerHTML = `<label>Dark Mode (Recommended unless something isnt clearly visible)</label><input type="checkbox" ${buzzTheme.colorScheme === 'dark' ? 'checked' : ''}>`
+            darkModeToggle.innerHTML = `<label>Dark Mode (Recommended unless something isnt clearly visible)</label><input type="checkbox" ${buzzTheme.colorScheme === 'dark' && buzzTheme.theme === 'Purple' ? 'checked' : ''}>`
             darkModeToggle.style.color = 'white'
             darkModeToggle.style['text-align'] = 'center'
 
@@ -578,9 +590,6 @@
                         "accept": "application/json",
                         "accept-language": "en-US,en;q=0.9",
                         "content-type": "application/json",
-                        //"sec-ch-ua": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"Microsoft Edge\";v=\"110\"",
-                        //"sec-ch-ua-mobile": "?0",
-                        //"sec-ch-ua-platform": "\"Windows\"",
                         "sec-fetch-dest": "empty",
                         "sec-fetch-mode": "cors",
                         "sec-fetch-site": "cross-site"
@@ -596,9 +605,6 @@
                         "accept": "application/json",
                         "accept-language": "en-US,en;q=0.9",
                         "content-type": "application/json",
-                        //"sec-ch-ua": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"Microsoft Edge\";v=\"110\"",
-                        //"sec-ch-ua-mobile": "?0",
-                        //"sec-ch-ua-platform": "\"Windows\"",
                         "sec-fetch-dest": "empty",
                         "sec-fetch-mode": "cors",
                         "sec-fetch-site": "cross-site"
