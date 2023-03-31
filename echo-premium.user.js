@@ -9,9 +9,9 @@
 
 ░█████╗░██╗░░░░░██████╗░██╗░░██╗░█████╗░░░░░░░██╗░░░██╗░█████╗░
 ██╔══██╗██║░░░░░██╔══██╗██║░░██║██╔══██╗░░░░░░██║░░░██║██╔══██╗
-███████║██║░░░░░██████╔╝███████║███████║█████╗╚██╗░██╔╝╚█████╔╝
-██╔══██║██║░░░░░██╔═══╝░██╔══██║██╔══██║╚════╝░╚████╔╝░██╔══██╗
-██║░░██║███████╗██║░░░░░██║░░██║██║░░██║░░░░░░░░╚██╔╝░░╚█████╔╝
+███████║██║░░░░░██████╔╝███████║███████║█████╗╚██╗░██╔╝╚██████║
+██╔══██║██║░░░░░██╔═══╝░██╔══██║██╔══██║╚════╝░╚████╔╝░░╚═══██║
+██║░░██║███████╗██║░░░░░██║░░██║██║░░██║░░░░░░░░╚██╔╝░░░█████╔╝
 ╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░░░░░░░╚═╝░░░░╚════╝░
 
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -168,7 +168,7 @@
 // ==UserScript==
 // @name         Echo Premium
 // @namespace    https://dj13423.repl.co
-// @version      Alpha-v8
+// @version      Alpha-v9
 // @description  Echo Premium
 // @author       DJ
 // @match        https://snths.echo-ntn.org/*
@@ -184,13 +184,54 @@
     'use strict';
 
 
-    const scriptVersion = 'Alpha-v8'
+    const scriptVersion = 'Alpha-v9'
 
 
     function $(selector) { return document.querySelectorAll(selector) }
 
 
     console.log('Loading injector...')
+
+
+    async function enableDarkModeIfUserIsNew() {
+        const userNotNew = localStorage.getItem('userHasUsedEchoPremiumBefore')
+        if (userNotNew == undefined) {
+            const sessionData = JSON.parse(localStorage.getItem('session'))
+            const buzzTheme = await (await fetch(`https://api.agilixbuzz.com/cmd/getresource?_token=${sessionData.token}&entityid=${sessionData.user.id}&path=Assets%2FBuzzTheme.json`, {
+                "headers": {
+                    "accept": "application/json",
+                    "accept-language": "en-US,en;q=0.9",
+                    "content-type": "application/json",
+                    "sec-fetch-dest": "empty",
+                    "sec-fetch-mode": "cors",
+                    "sec-fetch-site": "cross-site"
+                },
+                "referrer": "https://snths.echo-ntn.org/",
+                "referrerPolicy": "strict-origin-when-cross-origin",
+                "method": "GET",
+                "mode": "cors",
+                "credentials": "omit"
+            })).json()
+            await fetch(`https://api.agilixbuzz.com/cmd/putresource?_token=${sessionData.token}&entityid=${sessionData.user.id}&path=Assets%2FBuzzTheme.json`, {
+                "headers": {
+                    "accept": "application/json",
+                    "accept-language": "en-US,en;q=0.9",
+                    "content-type": "application/json",
+                    "sec-fetch-dest": "empty",
+                    "sec-fetch-mode": "cors",
+                    "sec-fetch-site": "cross-site"
+                },
+                "referrer": "https://snths.echo-ntn.org/",
+                "referrerPolicy": "strict-origin-when-cross-origin",
+                "body": `{"theme":"Purple","colorScheme":"dark","ActivityStreamLastRead":"${buzzTheme.ActivityStreamLastRead}"}`,
+                "method": "POST",
+                "mode": "cors",
+                "credentials": "omit"
+            })
+            localStorage.setItem('userHasUsedEchoPremiumBefore', true)
+        }
+    }
+    enableDarkModeIfUserIsNew()
 
 
     let isInTeacherApp = true
@@ -287,6 +328,11 @@
             if (!buttonDescription) return
             buttonDescription.innerHTML = 'Premium Settings'
         }
+        if ($('.echo-premium-settings-sidebar-navmenu-button > span > span.description:not(.sr-only)').length == 0) {
+            const span = document.createElement('span')
+            $('.echo-premium-settings-sidebar-navmenu-button > span')[0].appendChild(span)
+            span.outerHTML = '<span _ngcontent-cmk-c475="" class="description">Premium Settings</span>'
+        }
     }
     setInterval(() => tryAddEchoPremiumButton(), 2000)
 
@@ -331,6 +377,14 @@
         background-repeat: no-repeat;
     }
 
+    .mat-icon {
+       transition: transform 0.3s;
+    }
+
+    .mat-icon:hover {
+        transform: perspective(10px) translate3d(0px, -4px, 1px);
+    }
+
     /* Student/Teacher buttons after login */
     .mat-raised-button {
         border-radius: 30px !important;
@@ -353,10 +407,16 @@
     }
 
     /* Side mav menu */
-    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav {
+    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav.mat-drawer {
         background-image: linear-gradient(90deg, var(--primary-900), 90%, #0000) !important;
         border-radius: 10px !important;
         margin: 10px !important;
+        transform: translate3d(-100%, -50%, -100px);
+    }
+
+    /* Hide sidenav scroll bar */
+    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div::-webkit-scrollbar {
+        display: none;
     }
 
     /* Individual side nav menu buttons */
