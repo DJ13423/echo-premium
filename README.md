@@ -1,4 +1,4 @@
-# Tampermonkey Installation Instrcutions (Required for Echo Premium)
+# Tampermonkey Installation Instructions (Required for Echo Premium)
 
 1. [Click here](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) to go to the chrome store and click `Add to chrome`
 
