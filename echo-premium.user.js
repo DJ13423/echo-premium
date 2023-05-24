@@ -7,12 +7,12 @@
 ███████╗╚█████╔╝██║░░██║╚█████╔╝  ██║░░░░░██║░░██║███████╗██║░╚═╝░██║██║╚██████╔╝██║░╚═╝░██║
 ╚══════╝░╚════╝░╚═╝░░╚═╝░╚════╝░  ╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚═╝░╚═════╝░╚═╝░░░░░╚═╝
 
-░█████╗░██╗░░░░░██████╗░██╗░░██╗░█████╗░░░░░░░██╗░░░██╗░█████╗░
-██╔══██╗██║░░░░░██╔══██╗██║░░██║██╔══██╗░░░░░░██║░░░██║██╔══██╗
-███████║██║░░░░░██████╔╝███████║███████║█████╗╚██╗░██╔╝╚██████║
-██╔══██║██║░░░░░██╔═══╝░██╔══██║██╔══██║╚════╝░╚████╔╝░░╚═══██║
-██║░░██║███████╗██║░░░░░██║░░██║██║░░██║░░░░░░░░╚██╔╝░░░█████╔╝
-╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░░░░░░░╚═╝░░░░╚════╝░
+██████╗░███████╗████████╗░█████╗░░░░░░░██╗░░░██╗░░███╗░░
+██╔══██╗██╔════╝╚══██╔══╝██╔══██╗░░░░░░██║░░░██║░████║░░
+██████╦╝█████╗░░░░░██║░░░███████║█████╗╚██╗░██╔╝██╔██║░░
+██╔══██╗██╔══╝░░░░░██║░░░██╔══██║╚════╝░╚████╔╝░╚═╝██║░░
+██████╦╝███████╗░░░██║░░░██║░░██║░░░░░░░░╚██╔╝░░███████╗
+╚═════╝░╚══════╝░░░╚═╝░░░╚═╝░░╚═╝░░░░░░░░░╚═╝░░░╚══════╝
 
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 █████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗
@@ -168,7 +168,7 @@
 // ==UserScript==
 // @name         Echo Premium
 // @namespace    https://dj13423.repl.co
-// @version      Alpha-v9
+// @version      Beta-v1
 // @description  Echo Premium
 // @author       DJ
 // @match        https://snths.echo-ntn.org/*
@@ -184,7 +184,7 @@
     'use strict';
 
 
-    const scriptVersion = 'Alpha-v9'
+    const scriptVersion = 'Beta-v1'
 
 
     function $(selector) { return document.querySelectorAll(selector) }
@@ -286,6 +286,15 @@
         <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-03-13%2022.13.37%20-%20A%20beautiful%20city%20with%20amazing%20lighting.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-03-13%2022.13.37%20-%20A%20beautiful%20city%20with%20amazing%20lighting.png'">
         <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-03-15%2009.40.01%20-%20a%20space%20background%20showing%20an%20earth%20like%20planet.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://github.com/DJ13423/echo-premium/raw/main/background-images/DALL%C2%B7E%202023-03-15%2009.40.01%20-%20a%20space%20background%20showing%20an%20earth%20like%20planet%20.png'">
         <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-03-15%2011.01.46%20-%20a%20minecraft%20sunset%20but%20with%20shaders.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-03-15%2011.01.46%20-%20a%20minecraft%20sunset%20but%20with%20shaders.png'">
+        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-04-19%2012.36.35%20-%20A%20Sunset.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-04-19%2012.36.35%20-%20A%20Sunset.png'">
+        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-05-12%2011.11.39%20-%20Mysterious%20Planet_%20An%20otherworldly%20landscape%20with%20strange%20land%20formations%20and%20unusual%20flora.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-05-12%2011.11.39%20-%20Mysterious%20Planet_%20An%20otherworldly%20landscape%20with%20strange%20land%20formations%20and%20unusual%20flora.png'">
+        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-05-12%2011.11.46%20-%20Artistic%20Painting_%20A%20visually%20captivating%20artwork%20with%20unique%20brushstrokes%20and%20vibrant%20colors.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-05-12%2011.11.46%20-%20Artistic%20Painting_%20A%20visually%20captivating%20artwork%20with%20unique%20brushstrokes%20and%20vibrant%20colors.png'">
+        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-05-12%2011.11.50%20-%20Stellar%20Night_%20A%20breathtaking%20view%20of%20stars%20scattered%20across%20a%20dark%20night%20sky.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-05-12%2011.11.50%20-%20Stellar%20Night_%20A%20breathtaking%20view%20of%20stars%20scattered%20across%20a%20dark%20night%20sky.png'">
+        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-05-12%2011.11.54%20-%20Galactic%20Marvel_%20An%20awe-inspiring%20image%20showcasing%20the%20vastness%20of%20a%20galaxy%20with%20swirling%20nebulas%20and%20distant%20stars.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-05-12%2011.11.54%20-%20Galactic%20Marvel_%20An%20awe-inspiring%20image%20showcasing%20the%20vastness%20of%20a%20galaxy%20with%20swirling%20nebulas%20and%20distant%20stars.png'">
+        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-05-12%2011.11.58%20-%20Tropical%20Paradise_%20A%20tropical%20beach%20with%20palm%20trees%2C%20white%20sand%2C%20crystal-clear%20water%2C%20and%20colorful%20umbrellas.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-05-12%2011.11.58%20-%20Tropical%20Paradise_%20A%20tropical%20beach%20with%20palm%20trees%2C%20white%20sand%2C%20crystal-clear%20water%2C%20and%20colorful%20umbrellas.png'">
+        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-05-12%2011.12.01%20-%20Haunted%20Mansion_%20An%20eerie%20mansion%20with%20spooky%20architecture%2C%20overgrown%20vines%2C%20and%20a%20full%20moon%20casting%20shadows.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-05-12%2011.12.01%20-%20Haunted%20Mansion_%20An%20eerie%20mansion%20with%20spooky%20architecture%2C%20overgrown%20vines%2C%20and%20a%20full%20moon%20casting%20shadows.png'">
+        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-05-12%2011.12.05%20-%20Dreamy%20Meadow_%20A%20peaceful%20meadow%20with%20blooming%20flowers%2C%20gentle%20rolling%20hills%2C%20and%20a%20clear%20blue%20sky%20dotted%20with%20fluffy%20clouds.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-05-12%2011.12.05%20-%20Dreamy%20Meadow_%20A%20peaceful%20meadow%20with%20blooming%20flowers%2C%20gentle%20rolling%20hills%2C%20and%20a%20clear%20blue%20sky%20dotted%20with%20fluffy%20clouds.png'">
+        <img src="https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-image-thumbnails/THUMBNAIL-DALL%C2%B7E%202023-05-12%2011.12.08%20-%20Cyberpunk%20Cityscape_%20A%20futuristic%20city%20with%20towering%20skyscrapers%2C%20neon%20lights%2C%20flying%20cars%2C%20and%20holographic%20advertisements.png" class="background-image-preset-thumbnail" onclick="document.echoPremium.$('#background-image-input')[0].value = 'https://raw.githubusercontent.com/DJ13423/echo-premium/main/background-images/DALL%C2%B7E%202023-05-12%2011.12.08%20-%20Cyberpunk%20Cityscape_%20A%20futuristic%20city%20with%20towering%20skyscrapers%2C%20neon%20lights%2C%20flying%20cars%2C%20and%20holographic%20advertisements.png'">
         <br>
         <br>
         <button type="button" onclick="document.echoPremium.saveSettings(); window.location.href='/${isInTeacherApp ? 'teacher' : 'student'}/home/courses'" style="border-color: black; border-radius: 5px; font-size: 20px; background-color: #181;">Save & exit</button>
@@ -298,7 +307,7 @@
         <h5>Echo Premium version ${scriptVersion}</h5>
         <h3>Credits:</h3>
         <p>Creator: (DJ) Daniel Bonner</p>
-        <p>Alpha Testers:</p>
+        <p>Early Alpha Testers & Feedback providers:</p>
         <ul>
             <li>Mekhilyn Durr</li>
             <li>Dylan Gilbert</li>
@@ -484,8 +493,8 @@
     /* T/S */
     body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-student-home-tabs > div.tab-content > app-student-courses > div.home-ct > div > mat-card > div > div.mat-card-image.course-card-image.rounded.ng-star-inserted {
         border-radius: 30px 30px 0px 0px !important;
-        margin-left: -26px !important;
-        margin-top: -17px !important;
+        margin-left: -24px !important;
+        margin-top: -16px !important;
     }
 
     /* Class card color bands */
@@ -695,8 +704,13 @@
 
     setInterval(() => {
         $(isInTeacherApp ? 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-teacher-home-tabs > div.tab-content > app-teacher-home > div.home-ct > div.grid-ct.ng-star-inserted > mat-card' : 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-student-home-tabs > div.tab-content > app-student-courses > div.home-ct > div > mat-card').forEach(element => {
-            element.style.setProperty("border-style", "solid", "important")
-            element.style.setProperty("border-color", element.children.item(0).children.item(1).style['background-color'], "important")
+            //element.style.setProperty("width", "255px", "important")
+            //element.style.setProperty("box-sizing", "border-box", "important")
+            //element.style.setProperty("border-style", "solid", "important")
+            //element.style.setProperty("border-color", element.children.item(0).children.item(1).style['background-color'], "important")
+            element.style.setProperty("outline-color", element.children.item(0).children.item(1).style['background-color'], "important")
+            element.style.setProperty("outline-style", "solid", "important")
+            element.style.setProperty("outline-width", "3px", "important")
         })
 
         $('body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-student-home-tabs > div.tab-content > app-student-courses > div.home-ct > div > mat-card > div > div.detail-ct.ng-star-inserted > div > lib-score > span > span.letter.ng-star-inserted').forEach(element => {
