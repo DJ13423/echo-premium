@@ -7,10 +7,10 @@
 ███████╗╚█████╔╝██║░░██║╚█████╔╝  ██║░░░░░██║░░██║███████╗██║░╚═╝░██║██║╚██████╔╝██║░╚═╝░██║
 ╚══════╝░╚════╝░╚═╝░░╚═╝░╚════╝░  ╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚═╝░╚═════╝░╚═╝░░░░░╚═╝
 
-██████╗░███████╗████████╗░█████╗░░░░░░░██╗░░░██╗░░███╗░░
-██╔══██╗██╔════╝╚══██╔══╝██╔══██╗░░░░░░██║░░░██║░████║░░
-██████╦╝█████╗░░░░░██║░░░███████║█████╗╚██╗░██╔╝██╔██║░░
-██╔══██╗██╔══╝░░░░░██║░░░██╔══██║╚════╝░╚████╔╝░╚═╝██║░░
+██████╗░███████╗████████╗░█████╗░░░░░░░██╗░░░██╗██████╗░
+██╔══██╗██╔════╝╚══██╔══╝██╔══██╗░░░░░░██║░░░██║╚════██╗
+██████╦╝█████╗░░░░░██║░░░███████║█████╗╚██╗░██╔╝░░███╔═╝
+██╔══██╗██╔══╝░░░░░██║░░░██╔══██║╚════╝░╚████╔╝░██╔══╝░░
 ██████╦╝███████╗░░░██║░░░██║░░██║░░░░░░░░╚██╔╝░░███████╗
 ╚═════╝░╚══════╝░░░╚═╝░░░╚═╝░░╚═╝░░░░░░░░░╚═╝░░░╚══════╝
 
@@ -167,8 +167,8 @@
 
 // ==UserScript==
 // @name         Echo Premium
-// @namespace    https://dj13423.repl.co
-// @version      Beta-v1
+// @namespace    https://github.com/dj13423
+// @version      Beta-v2
 // @description  Echo Premium
 // @author       DJ
 // @match        https://snths.echo-ntn.org/*
@@ -184,7 +184,7 @@
     'use strict';
 
 
-    const scriptVersion = 'Beta-v1'
+    const scriptVersion = 'Beta-v2'
 
 
     function $(selector) { return document.querySelectorAll(selector) }
@@ -303,15 +303,15 @@
         <br>
         <hr>
         <br>
-        <h1>About</h1>
+        <h1>About:</h1>
         <h5>Echo Premium version ${scriptVersion}</h5>
         <h3>Credits:</h3>
-        <p>Creator: (DJ) Daniel Bonner</p>
+        <p>Creator: DJ</p>
         <p>Early Alpha Testers & Feedback providers:</p>
         <ul>
-            <li>Mekhilyn Durr</li>
-            <li>Dylan Gilbert</li>
-            <li>Vicente Rojo-Cudabac</li>
+            <li>Mekhilyn</li>
+            <li>Dylan</li>
+            <li>Vicente</li>
         </ul>
     </div>`
             settingsHaveBeenLoaded = true
@@ -330,18 +330,18 @@
             const buttonToPutUnder = $(isInTeacherApp ? 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-teacher-nav > mat-nav-list > div.main-menu.ng-trigger.ng-trigger-navMenu' : 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-student-nav > mat-nav-list > div.main-menu.ng-trigger.ng-trigger-navMenu')[0]
             if (!buttonToPutUnder) return
             buttonToPutUnder.lastChild.after(clonedButtonElement)
-            const iconElement = $(isInTeacherApp ? 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-teacher-nav > mat-nav-list > div.main-menu.ng-trigger.ng-trigger-navMenu > a.mat-list-item.mat-focus-indicator.mat-tooltip-trigger.top-menu-entry.ng-star-inserted.echo-premium-settings-sidebar-navmenu-button > span > mat-icon' : 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-student-nav > mat-nav-list > div.main-menu.ng-trigger.ng-trigger-navMenu > a.mat-list-item.mat-focus-indicator.mat-tooltip-trigger.top-main-entry.ng-star-inserted.echo-premium-settings-sidebar-navmenu-button > span > mat-icon')[0]
-            if (!iconElement) return
+            const iconElement = $(isInTeacherApp ? 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-teacher-nav > mat-nav-list > div.main-menu.ng-trigger.ng-trigger-navMenu > a.mat-mdc-list-item.ng-star-inserted.echo-premium-settings-sidebar-navmenu-button > span > span > mat-icon' : 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-student-nav > mat-nav-list > div.main-menu.ng-trigger.ng-trigger-navMenu > a.mat-mdc-list-item.ng-star-inserted.echo-premium-settings-sidebar-navmenu-button > span > span > mat-icon')[0]
+            if (!iconElement) console.log('error')
             iconElement.innerHTML = 'settings'
-            const buttonDescription = $(isInTeacherApp ? 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-teacher-nav > mat-nav-list > div.main-menu.ng-trigger.ng-trigger-navMenu > a.mat-list-item.mat-focus-indicator.mat-tooltip-trigger.top-menu-entry.ng-star-inserted.echo-premium-settings-sidebar-navmenu-button > span > span.description' : 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-student-nav > mat-nav-list > div.main-menu.ng-trigger.ng-trigger-navMenu > a.mat-list-item.mat-focus-indicator.mat-tooltip-trigger.top-main-entry.ng-star-inserted.echo-premium-settings-sidebar-navmenu-button > span > span.description')[0]
+            const buttonDescription = $(isInTeacherApp ? 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-teacher-nav > mat-nav-list > div.main-menu.ng-trigger.ng-trigger-navMenu > a.mat-mdc-list-item.ng-star-inserted.echo-premium-settings-sidebar-navmenu-button > span > span.mdc-list-item__primary-text > span' : 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-student-nav > mat-nav-list > div.main-menu.ng-trigger.ng-trigger-navMenu > a.mat-mdc-list-item.ng-star-inserted.echo-premium-settings-sidebar-navmenu-button > span > span.mdc-list-item__primary-text > span')[0]
             if (!buttonDescription) return
             buttonDescription.innerHTML = 'Premium Settings'
         }
-        if ($('.echo-premium-settings-sidebar-navmenu-button > span > span.description:not(.sr-only)').length == 0) {
-            const span = document.createElement('span')
-            $('.echo-premium-settings-sidebar-navmenu-button > span')[0].appendChild(span)
-            span.outerHTML = '<span _ngcontent-cmk-c475="" class="description">Premium Settings</span>'
-        }
+        // if ($('.echo-premium-settings-sidebar-navmenu-button > span > span > span.description').length == 0) { // :not(.sr-only)
+        //     const span = document.createElement('span')
+        //     $('.echo-premium-settings-sidebar-navmenu-button > span > span')[0].appendChild(span)
+        //     span.outerHTML = '<span _ngcontent-cmk-c475="" class="description">Premium Settings</span>'
+        // }
     }
     setInterval(() => tryAddEchoPremiumButton(), 2000)
 
@@ -378,7 +378,7 @@
     body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-student-home-tabs > div.tab-content > app-student-to-do,
     body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-student-home-tabs > div.tab-content > app-student-stream,
     body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-item-modal > lib-activity-player > mat-drawer-container > mat-drawer-content,
-    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > div.buzz-activity > div > app-course-home > mat-drawer-container > mat-drawer-content,
+    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > mat-drawer-container > mat-drawer-content > app-course-home > mat-drawer-container,
     body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > lib-grade-details > div {
         background-image: url(${localStorage.getItem('background-image')}) !important;
         background-size: cover;
@@ -386,11 +386,12 @@
         background-repeat: no-repeat;
     }
 
-    .mat-icon {
+    /* Icons that you can hover your mouse over */
+    .mdc-icon-button {
        transition: transform 0.3s;
     }
 
-    .mat-icon:hover {
+    .mdc-icon-button:hover {
         transform: perspective(10px) translate3d(0px, -4px, 1px);
     }
 
@@ -489,12 +490,10 @@
     }
 
     /* Class card images */
-    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-teacher-home-tabs > div.tab-content > app-teacher-home > div.home-ct > div > mat-card > div > div.mat-card-image.course-card-image.rounded.ng-star-inserted,
+    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-teacher-home-tabs > div.tab-content > app-teacher-home > div.home-ct > div > mat-card > div > div.mat-mdc-card-image.course-card-image.rounded.ng-star-inserted,
     /* T/S */
-    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-student-home-tabs > div.tab-content > app-student-courses > div.home-ct > div > mat-card > div > div.mat-card-image.course-card-image.rounded.ng-star-inserted {
+    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-student-home-tabs > div.tab-content > app-student-courses > div.home-ct > div > mat-card > div > div.mat-mdc-card-image.course-card-image.rounded.ng-star-inserted {
         border-radius: 30px 30px 0px 0px !important;
-        margin-left: -24px !important;
-        margin-top: -16px !important;
     }
 
     /* Class card color bands */
@@ -510,7 +509,7 @@
     }
 
     /* Class page main card */
-    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > div.buzz-activity > div > app-course-home > mat-drawer-container > mat-drawer-content > div > mat-card {
+    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > mat-drawer-container > mat-drawer-content > app-course-home > mat-drawer-container > mat-drawer-content > div > mat-card {
         border-radius: 30px;
         border-color: black;
         animation: class-page-main-card 6s infinite linear !important;
@@ -522,7 +521,7 @@
     }
 
     /* Color band at the top of the class page main card */
-    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > div.buzz-activity > div > app-course-home > mat-drawer-container > mat-drawer-content > div > mat-card > div:nth-child(1) > div.color-band.rounded {
+    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > mat-drawer-container > mat-drawer-content > app-course-home > mat-drawer-container > mat-drawer-content > div > mat-card > div:nth-child(1) > div.color-band.rounded {
         margin-right: 40px;
         margin-left: 40px;
         margin-top: 10px;
@@ -531,11 +530,12 @@
     }
 
     /* "Go to today" agenda button */
-    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > div.buzz-activity > div > app-course-home > mat-drawer-container > mat-drawer-content > div > mat-card > div.agendas.ng-star-inserted > span > button {
+    /* Similar style is implemented in the website already */
+    /*body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > mat-drawer-container > mat-drawer-content > app-course-home > mat-drawer-container > mat-drawer-content > div > mat-card > div.agendas.ng-star-inserted > span > button {
         border-style: solid;
         border-color: #FFF5;
         border-width: 1px;
-    }
+    }*/
 
     /* Individual activities */
     div > lib-activity-tree > div > mat-tree > mat-tree-node {
@@ -550,23 +550,16 @@
     }
 
     /* Class thumbnail image that shows at the top of the page after you click on a class card */
-    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > div.buzz-activity > div > app-course-home > mat-drawer-container > mat-drawer-content > div > mat-card > div:nth-child(1) > div.top-header > div.course-thumbnail {
+    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > mat-drawer-container > mat-drawer-content > app-course-home > mat-drawer-container > mat-drawer-content > div > mat-card.mat-mdc-card > div:nth-child(1) > div.top-header > div.course-thumbnail {
         border-radius: 15px !important;
         box-shadow: 0px 0px 20px 5px #AFE9
     }
 
     /* Mat divider (dividers/<br>'s) */
-    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > div.buzz-activity > div > app-course-home > mat-drawer-container > mat-drawer-content > div > mat-card > mat-divider,
-    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > div.buzz-activity > div > app-course-home > mat-drawer-container > mat-drawer-content > div > mat-card > div.agendas.ng-star-inserted > mat-divider {
+    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > mat-drawer-container > mat-drawer-content > app-course-home > mat-drawer-container > mat-drawer-content > div > mat-card > mat-divider {
         background-image: linear-gradient(90deg, #0000, grey, #0000);
         height: 1px;
-        border-style: none;
-    }
-
-    /* Ink bar that shows under activity and to-do list */
-    body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav-content > div > app-activity > div.buzz-activity > div > app-course-home > mat-drawer-container > mat-drawer-content > div > mat-card > mat-tab-group > mat-tab-header > div > div > mat-ink-bar {
-        background-image: linear-gradient(90deg, #424242, var(--primary-default), #424242);
-        height: 2px;
+        border-style: none; !important;
     }
 
     /* Premium settings page main div */
@@ -615,7 +608,7 @@
     function tryAddEchoPremiumCreditWatermark() {
         if ($(isInTeacherApp ? 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-teacher-nav > mat-nav-list > p' : 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-student-nav > mat-nav-list > p').length == 0) {
             const echoPremiumCreditWatermarkElement = document.createElement('p')
-            echoPremiumCreditWatermarkElement.innerHTML = '<a href="https://dj13423.repl.co/" target="_blank">Echo premium by DJ</a>';
+            echoPremiumCreditWatermarkElement.innerHTML = '<a href="https://github.com/dj13423" target="_blank">Echo Premium | DJ13423</a>';
             echoPremiumCreditWatermarkElement.style.color = 'white'
             echoPremiumCreditWatermarkElement.style['text-align'] = 'center'
             const dividerElement = $(isInTeacherApp ? 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-teacher-nav > mat-nav-list > mat-divider' : 'body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div:nth-child(2) > app-student-nav > mat-nav-list > mat-divider')[0];
@@ -647,9 +640,10 @@
             })).json()
 
             const darkModeToggle = document.createElement('div')
-            darkModeToggle.innerHTML = `<label>Dark Mode (Recommended unless something isnt clearly visible)</label><input type="checkbox" ${buzzTheme.colorScheme === 'dark' && buzzTheme.theme === 'Purple' ? 'checked' : ''}>`
+            darkModeToggle.innerHTML = `<label>Dark Mode (Recommended)</label><input type="checkbox" ${buzzTheme.colorScheme === 'dark' && buzzTheme.theme === 'Purple' ? 'checked' : ''}>`
             darkModeToggle.style.color = 'white'
             darkModeToggle.style['text-align'] = 'center'
+            darkModeToggle.style['padding'] = '12px'
 
 
             darkModeToggle.onclick = async () => {
