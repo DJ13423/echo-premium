@@ -360,7 +360,7 @@
 
     /* Splash screen that shows on load */
     body > app-root > svg {
-        background-image: url(https://lh5.googleusercontent.com/KMpNXdVXEdLO5TRJ-XfYH2FdcHeda-QbqloLDe5kqLYcD1OxV9hTnoraDhwNM3_SCbs=w2400);
+        background-image: url(https://github.com/DJ13423/echo-premium/blob/main/echo-premium.png?raw=true);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -693,7 +693,7 @@
     setInterval(() => {
         const sideMenuLogoImg = $('body > app-root > app-after-login > div > mat-sidenav-container > mat-sidenav > div > div.side-menu-logo-ct > img')[0]
         if (sideMenuLogoImg)
-            sideMenuLogoImg.src = 'https://lh5.googleusercontent.com/KMpNXdVXEdLO5TRJ-XfYH2FdcHeda-QbqloLDe5kqLYcD1OxV9hTnoraDhwNM3_SCbs=w2400'
+            sideMenuLogoImg.src = 'https://github.com/DJ13423/echo-premium/blob/main/echo-premium.png?raw=true'
     }, 2000)
 
     setInterval(() => {
